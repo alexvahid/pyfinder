@@ -19,6 +19,7 @@ Pygments = "==2.2.0"
 gunicorn = "*"
 django-heroku = "*"
 whitenoise = "*"
+graphviz = "*"
 
 [dev-packages]
 
