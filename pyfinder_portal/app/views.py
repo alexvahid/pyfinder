@@ -5,6 +5,7 @@ import subprocess
 from django.http import HttpResponse, Http404
 import os
 import base64
+from settings import BASE_DIR
 
 python3_2_3 = os.path.expanduser("~/.pyenv/versions/3.2.3/bin/python")
 pyexz3 = "../pyexz3.py"
@@ -36,7 +37,7 @@ def index(request):
         raw_out = subprocess_cmd("source ../setup.sh; " + python3_2_3 + " " + pyexz3 + " --generate_test_suite --start " + orig_name +" --" + request.POST["solver"] + " --graph " + file_py)
 
 
-        file_path = test_suites + 'temp_file_test_suite.py'
+        file_path = BASEDIR + "/" + test_suites + 'temp_file_test_suite.py'
         with open(file_path, 'r') as myfile:
             test_suite=myfile.read()
 
