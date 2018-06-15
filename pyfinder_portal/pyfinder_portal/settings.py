@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'u6=ttm-wgw9&wnyjc0v6)&4781*64k*idjze!@x6zpdo906jow'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['pyfinder.herokuapp.com','127.0.0.1']
 
