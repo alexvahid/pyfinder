@@ -1,1 +1,1 @@
-web: gunicorn wsgi.py
+web: gunicorn pyfinder_portal.wsgi
