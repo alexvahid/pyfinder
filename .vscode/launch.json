@@ -52,7 +52,7 @@
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/manage.py",
+            "program": "${workspaceFolder}/pyfinder_portal/manage.py",
             "args": [
                 "runserver",
                 "--noreload",
