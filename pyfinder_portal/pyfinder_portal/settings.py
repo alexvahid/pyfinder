@@ -25,7 +25,7 @@ SECRET_KEY = 'u6=ttm-wgw9&wnyjc0v6)&4781*64k*idjze!@x6zpdo906jow'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pyfinder.herokuapp.com']
 
 
 # Application definition
@@ -119,6 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
-import django_heroku
-django_heroku.settings(locals())
+STATIC_ROOT = '/Users/alex/Documents/pyfinder/pyfinder_portal/app/static'
