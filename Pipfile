@@ -17,6 +17,7 @@ wrapt = "==1.10.11"
 Django = "==2.0.6"
 Pygments = "==2.2.0"
 gunicorn = "*"
+django-heroku = "*"
 
 [dev-packages]
 
