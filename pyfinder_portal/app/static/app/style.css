@@ -1,17 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 @import url(//fonts.googleapis.com/css?family=Pacifico:300,400,600,700);
 
-@font-face {
-	font-family: 'icomoon';
-	src:url('../images/icons/icomoon.eot');
-	src:url('../images/icons/icomoond41d.eot?#iefix') format('embedded-opentype'),
-		url('../images/icons/icomoon.svg#icomoon') format('svg'),
-		url('../images/icons/icomoon.woff') format('woff'),
-		url('../images/icons/icomoon.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
 #solver label:hover {
 	color: white;
 	text-decoration: underline;
