@@ -59,9 +59,7 @@ def index(request):
         err = err.decode("utf-8") 
 
         #dot -Tpng test/elseif.py.dot -o elseif.png
-        from graphviz import render
-        render('dot', 'png', file_py + ".dot")
-        encoded = base64.b64encode(open(file_py + ".dot.png", "rb").read()).decode("utf-8")
+        encoded = base64.b64encode(open("temp_file.png", "rb").read()).decode("utf-8")
 
         data["solver"] = request.POST["solver"]
         data["out"] = raw_out
