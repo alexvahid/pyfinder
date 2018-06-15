@@ -7,7 +7,7 @@ import os
 import base64
 from pyfinder_portal.settings import BASE_DIR 
 
-python3_2_3 = '/app/pyenv/versions/3.2.3/bin/python'
+python3_2_3 = '/app/pyenv323/versions/3.2.3/bin/python'
 pyexz3 = "../pyexz3.py"
 file_py = "temp_file.py"
 test_suites = "generated_test_suites/"
