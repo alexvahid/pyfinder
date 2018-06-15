@@ -42,7 +42,6 @@ def index(request):
             test_suite=myfile.read()
 
         #coverage run --branch generated_test_suites/$TEST_FILE
-        subprocess.call(["pyenv", "local", "3.6.5"])
         proc = subprocess.Popen(["coverage", "run", "--branch", file_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         out, err = proc.communicate()
         out = out.decode("utf-8") 
